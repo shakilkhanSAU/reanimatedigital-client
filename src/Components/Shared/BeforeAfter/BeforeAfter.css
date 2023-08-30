@@ -1,0 +1,18 @@
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    position: relative;
+    top: 5%;
+    overflow: hidden;
+    border-radius: 1rem;
+}

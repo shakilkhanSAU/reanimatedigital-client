@@ -3,6 +3,7 @@ import Footer from '../../Shared/Footer/Footer';
 import Courses from '../../Home/Courses/Courses';
 import './AllCourse.css';
 import Navigation from '../../Shared/Navigation/Navigation';
+import AllCourseHero from './AllCourseHero';
 
 const AllCourse = () => {
     // custom title for this page
@@ -14,6 +15,7 @@ const AllCourse = () => {
     return (
         <div>
             <Navigation></Navigation>
+            <AllCourseHero></AllCourseHero>
             <Courses></Courses>
             <Footer></Footer>
         </div>

@@ -9,6 +9,7 @@ import Shop from "./Components/Shop/Shop/Shop";
 import About from "./Components/About/About";
 import AllCourse from "./Components/Courses/AllCourse/AllCourse";
 import CourseDetails from "./Components/Courses/CourseDetails/CourseDetails";
+import ShopDetails from "./Components/Shop/ShopDetails/ShopDetails";
 
 
 const router = createBrowserRouter([
@@ -38,11 +39,15 @@ const router = createBrowserRouter([
     path: "course-details",
     element: <CourseDetails />,
   },
+  {
+    path: "/shop/details",
+    element: <ShopDetails />,
+  },
 ]);
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <RouterProvider className="overscroll-none" router={router} />
   );
 }
 

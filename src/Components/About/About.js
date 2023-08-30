@@ -5,6 +5,11 @@ import './About.css'
 import Navigation from '../Shared/Navigation/Navigation';
 
 const About = () => {
+
+    componentDidMount();
+    function componentDidMount() {
+        document.title = "ReAnimate | About";
+    }
     return (
         <div>
             <Navigation></Navigation>

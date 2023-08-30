@@ -27,6 +27,19 @@ const Footer = () => {
                     <a className="link link-hover">Terms of use</a>
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
+                    <a className='link link-hover'>
+                        <span className='flex flex-row'>
+                            <p>Help</p>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/nocvdjmh.json"
+                                trigger="hover"
+                                colors="primary:#121331"
+                                style={{ width: '20px', height: '20px' }}>
+                            </lord-icon>
+
+                        </span>
+
+                    </a>
                 </div>
             </footer>
             <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">

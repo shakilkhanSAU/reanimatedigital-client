@@ -45,10 +45,10 @@ const Shop = () => {
 
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/6wHs0Nh/lut1.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/vxwkdDd/lut1.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">lut</h2>
+                                <h2 className="card-title">Color Your Life</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions">
                                     <button style={styles.customButtonStyle} className="btn md:px-10 glass btn-secondary">See More</button>
@@ -57,10 +57,10 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/6wHs0Nh/lut1.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/BKjSywx/lut2.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">lut</h2>
+                                <h2 className="card-title">Color Your Life</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions">
                                     <button style={styles.customButtonStyle} className="btn md:px-10 glass btn-secondary">See More</button>
@@ -69,10 +69,10 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/6wHs0Nh/lut1.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/Dz9kTH3/gameasset.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">lut</h2>
+                                <h2 className="card-title">Color Your Life</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions">
                                     <button style={styles.customButtonStyle} className="btn md:px-10 glass btn-secondary">See More</button>
@@ -81,10 +81,10 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/6wHs0Nh/lut1.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/kq0N166/lut3.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">lut</h2>
+                                <h2 className="card-title">Color Your Life</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions">
                                     <button style={styles.customButtonStyle} className="btn md:px-10 glass btn-secondary">See More</button>
@@ -92,8 +92,20 @@ const Shop = () => {
                             </div>
                         </div>
 
-
-
+                        <div className="card bg-base-100 shadow-xl md:m-4">
+                            <figure className='imageContainer'>
+                                <img src="https://i.ibb.co/8Yx85NW/lut4.png" alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Color Your Life</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions">
+                                    <button style={styles.customButtonStyle} className="btn md:px-10 glass btn-secondary">
+                                        <a href="/shop/details">See More</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

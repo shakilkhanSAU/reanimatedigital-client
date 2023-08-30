@@ -1,5 +1,5 @@
 import React from 'react';
-import heroBackground from '../../../../herob/hero-b.mp4'
+import heroBackground from '../../../herob/hero-b.mp4'
 
 const Hero = () => {
     return (

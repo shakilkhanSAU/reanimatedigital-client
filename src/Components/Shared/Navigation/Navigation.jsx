@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import useTheme from '../Hooks/useTheme';
 
 const Navigation = () => {
     const [dayIcon, setDayIcon] = React.useState(localStorage.getItem('theme') === 'dark' ? 'swap-on' : 'swap-off');
@@ -45,7 +44,7 @@ const Navigation = () => {
 
     return (
         <div id='sticky'>
-            <div className="drawer z-10 bg-base-100">
+            <div className="drawer z-10 bg-base-100s">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
@@ -66,9 +65,7 @@ const Navigation = () => {
                                 <li className='text-'><a href='/contact'>Contact</a></li>
                                 <li className='text-'><a href='/shop'>Shop</a></li>
                                 <li className='text-'><a href='/courses'>Courses</a></li>
-                                <li className='text-'><a href='/courses'>Courses</a></li>
-
-                                <label className="swap swap-rotate">
+                                <label className="swap swap-rotate p-2">
 
                                     {/* this hidden checkbox controls the state */}
 
