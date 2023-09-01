@@ -41,11 +41,11 @@ const Shop = () => {
             <div className='p-6 md:px-12 bg-base-200 text-base-content py-15 '>
                 <div id="shop">
                     <h1 className="mb-5 mt-10 md:pt-11 text-3xl font-bold"><span className='text-red-600 m-0'>Re</span><span className=''>Animate</span><span className="text-[#45ceae]"> Shop</span></h1>
-                    <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-4 lg:gap-6 lg:px-11 justify-center align-center">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-3 justify-center align-center">
 
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/vxwkdDd/lut1.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/TqbV59p/lut4.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Color Your Life</h2>
@@ -57,7 +57,7 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/BKjSywx/lut2.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/KNMZ0LP/lut3.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Color Your Life</h2>
@@ -69,7 +69,7 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/Dz9kTH3/gameasset.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/dQsQ5fT/lut2.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Color Your Life</h2>
@@ -81,7 +81,7 @@ const Shop = () => {
                         </div>
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/kq0N166/lut3.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/L9Qhgsf/gameasset.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Color Your Life</h2>
@@ -94,7 +94,7 @@ const Shop = () => {
 
                         <div className="card bg-base-100 shadow-xl md:m-4">
                             <figure className='imageContainer'>
-                                <img src="https://i.ibb.co/8Yx85NW/lut4.png" alt="Shoes" className="rounded-xl" />
+                                <img src="https://i.ibb.co/FHXjsCZ/lut1.png" alt="Shoes" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Color Your Life</h2>

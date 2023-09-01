@@ -10,38 +10,53 @@ import About from "./Components/About/About";
 import AllCourse from "./Components/Courses/AllCourse/AllCourse";
 import CourseDetails from "./Components/Courses/CourseDetails/CourseDetails";
 import ShopDetails from "./Components/Shop/ShopDetails/ShopDetails";
+import SignIn from "./Components/Authentication/SignIn/SignIn";
+import Cart from "./Components/Cart/Cart";
+import Main from "./Components/layout/Main";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <Home />
-    ),
-  },
-  {
-    path: "about",
-    element: <About />,
-  },
-  {
-    path: "contact",
-    element: <Contact />,
-  },
-  {
-    path: "shop",
-    element: <Shop />,
-  },
-  {
-    path: "courses",
-    element: <AllCourse />,
-  },
-  {
-    path: "course-details",
-    element: <CourseDetails />,
-  },
-  {
-    path: "/shop/details",
-    element: <ShopDetails />,
+    element: <Main />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "shop",
+        element: <Shop />,
+      },
+      {
+        path: "courses",
+        element: <AllCourse />,
+      },
+      {
+        path: "course-details",
+        element: <CourseDetails />,
+      },
+      {
+        path: "/signin",
+        element: <SignIn />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/shop/details",
+        element: <ShopDetails />,
+      },
+    ],
   },
 ]);
 

@@ -12,7 +12,6 @@ const Contact = () => {
 
     return (
         <div>
-            <Navigation></Navigation>
             <div className="hero min-h-screen bg-base-200 py-12 md:py-0 px-1 md:px-14">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left px-6 md:px-24 py-5 md:py-6">
@@ -41,7 +40,6 @@ const Contact = () => {
                 </div>
             </div>
 
-            <Footer></Footer>
         </div>
 
     );

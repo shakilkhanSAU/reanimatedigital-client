@@ -8,12 +8,11 @@ import Navigation from '../../Shared/Navigation/Navigation';
 const Home = () => {
     return (
         <div style={styles.container}>
-            {/* <Navbar> </Navbar> */}
-            <Navigation></Navigation>
+
             <Hero></Hero>
             <Courses></Courses>
             <ShowUp></ShowUp>
-            <Footer></Footer>
+
         </div>
     );
 };
